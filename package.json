@@ -1,0 +1,17 @@
+{
+  "name": "google-pianola",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nbsp1221/google-pianola.git",
+  "license": "MIT",
+  "packageManager": "yarn@3.0.2",
+  "devDependencies": {
+    "@types/node": "16.11.0",
+    "@typescript-eslint/eslint-plugin": "5.0.0",
+    "@typescript-eslint/parser": "5.0.0",
+    "eslint": "7.32.0",
+    "eslint-config-retn0": "1.0.3",
+    "ts-node": "10.3.0",
+    "typescript": "4.4.4"
+  }
+}

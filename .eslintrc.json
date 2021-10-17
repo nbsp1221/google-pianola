@@ -9,6 +9,9 @@
     "plugin:@typescript-eslint/recommended",
     "eslint-config-retn0"
   ],
+  "ignorePatterns": [
+    "dist/*"
+  ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": 12,

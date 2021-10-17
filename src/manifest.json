@@ -1,15 +1,9 @@
 {
-  "name": "Google Pianola",
-  "description": "An extension that automatically plays Shared Piano in Chrome Music Lab",
-  "version": "1.0.0",
   "manifest_version": 3,
-  "action": {
-    "default_popup": "popup.html"
-  },
   "content_scripts": [
     {
       "matches": ["https://musiclab.chromeexperiments.com/Shared-Piano/*"],
-      "js": ["content-script.js"]
+      "js": ["app.js"]
     }
   ]
 }

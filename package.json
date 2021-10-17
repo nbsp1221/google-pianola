@@ -1,17 +1,31 @@
 {
   "name": "google-pianola",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "An extension that automatically plays Shared Piano in Chrome Music Lab",
+  "main": "src/app.ts",
   "repository": "https://github.com/nbsp1221/google-pianola.git",
   "license": "MIT",
   "packageManager": "yarn@3.0.2",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress"
+  },
+  "dependencies": {
+    "change-case": "4.1.2"
+  },
   "devDependencies": {
+    "@types/copy-webpack-plugin": "8.0.1",
     "@types/node": "16.11.0",
+    "@types/webpack": "5.28.0",
     "@typescript-eslint/eslint-plugin": "5.0.0",
     "@typescript-eslint/parser": "5.0.0",
+    "copy-webpack-plugin": "9.0.1",
+    "cross-env": "7.0.3",
     "eslint": "7.32.0",
     "eslint-config-retn0": "1.0.3",
+    "ts-loader": "9.2.6",
     "ts-node": "10.3.0",
-    "typescript": "4.4.4"
+    "typescript": "4.4.4",
+    "webpack": "5.58.2",
+    "webpack-cli": "4.9.0"
   }
 }

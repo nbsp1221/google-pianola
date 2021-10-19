@@ -7,11 +7,16 @@ import packageJson from './package.json';
 
 const config: Configuration = {
   mode: isProduction ? 'production' : 'development',
+  watch: !isProduction,
   resolve: {
-    extensions: ['.js', '.ts'],
+    extensions: [
+      '.js',
+      '.ts',
+    ],
   },
   entry: {
     app: path.join(__dirname, 'src', 'app.ts'),
+    background: path.join(__dirname, 'src', 'background.ts'),
   },
   module: {
     rules: [

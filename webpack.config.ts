@@ -45,6 +45,8 @@ const config: Configuration = {
             }));
           },
         },
+        { from: './sheets/**/*.sheet' },
+        { from: './sheets/**/*.json' },
       ],
     }),
   ],

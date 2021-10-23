@@ -14,6 +14,7 @@
     "path-browserify": "^1.0.1"
   },
   "devDependencies": {
+    "@types/chrome": "^0.0.160",
     "@types/copy-webpack-plugin": "8.0.1",
     "@typescript-eslint/eslint-plugin": "5.1.0",
     "@typescript-eslint/parser": "5.1.0",

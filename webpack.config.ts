@@ -13,6 +13,7 @@ const config: Configuration = {
       '.js',
       '.ts',
     ],
+    fallback: { path: require.resolve('path-browserify') },
   },
   entry: {
     app: path.join(__dirname, 'src', 'app.ts'),

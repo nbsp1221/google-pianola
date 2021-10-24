@@ -5,7 +5,7 @@ interface pianoSingleNote {
   high: HTMLButtonElement[];
 }
 
-interface CodeInfo {
+export interface CodeInfo {
   octave: number;
   codeIndex: number;
   sharp?: boolean;

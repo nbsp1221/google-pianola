@@ -257,6 +257,8 @@ export default async function parser(sheetUrl: string, option?: Option): Promise
 
       if(wordFullString.length == 0 || wordList.length == 0) continue;
       
+      
+
       // 중단문
       if(wordFullString == '{{end}}') {
         break;
@@ -384,7 +386,11 @@ export default async function parser(sheetUrl: string, option?: Option): Promise
 
 
       if(note) {
+        // if(i > 18)
+        //   console.log(i, current_time);
+
         const calcBPM = note.delay * (60/current_bpm);
+        
         // const calcBPM = note.delay * 1000;
 
         // octaves
@@ -423,6 +429,7 @@ export default async function parser(sheetUrl: string, option?: Option): Promise
                     symbol: path.basename(sheetUrl) + ':' + (i+1).toString(),
                   });
                 current_time = current_time + calcBPM;
+                current_time = Math.round((current_time) * 1000) / 1000;
               }
             }
             else {
@@ -454,7 +461,7 @@ export default async function parser(sheetUrl: string, option?: Option): Promise
           current_time = current_time + calcBPM;
         }
         
-        
+        current_time = Math.round((current_time) * 1000) / 1000;
         // sheetList
       }
       

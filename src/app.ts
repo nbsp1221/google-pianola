@@ -1,5 +1,5 @@
 import piano, { CodeInfo } from './piano';
-import parser from './compiler';
+import parser from './parser';
 import { delay } from './util';
 
 import path from 'path';

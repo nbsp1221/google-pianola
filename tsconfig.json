@@ -6,6 +6,11 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "strict": true
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@google-pianola/app-extension": ["packages/app-extension/src/index.ts"],
+      "@google-pianola/utils": ["packages/utils/src/index.ts"]
+    }
   }
 }

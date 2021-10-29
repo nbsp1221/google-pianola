@@ -5,6 +5,10 @@
   "main": "src/app.ts",
   "repository": "https://github.com/nbsp1221/google-pianola.git",
   "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack --progress",
     "build": "cross-env NODE_ENV=production webpack --progress"

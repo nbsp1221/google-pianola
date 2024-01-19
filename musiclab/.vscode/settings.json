@@ -1,0 +1,11 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.tabSize": 2,
+  "files.eol": "\r\n",
+  "todo-tree.highlights.enabled": false,
+  "cSpell.words": [
+    "wrtc"
+  ]
+}

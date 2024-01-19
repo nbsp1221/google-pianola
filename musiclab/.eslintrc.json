@@ -1,0 +1,6 @@
+{
+  "extends": "eslint-config-retn0",
+  "rules": {
+    "linebreak-style": "off"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "musiclab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon -r tsconfig-paths/register --files src/index.ts"
+  },
+  "dependencies": {
+    "@types/simple-peer": "^9.11.8",
+    "midi-file": "^1.2.4",
+    "simple-peer": "^9.11.1",
+    "wrtc": "^0.4.7",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.10",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "eslint": "^8.56.0",
+    "eslint-config-retn0": "^1.12.0",
+    "eslint-plugin-import": "^2.29.1",
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.3.3"
+  }
+}
